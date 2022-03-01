@@ -41,7 +41,7 @@ html {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
@@ -83,7 +83,7 @@ header {
 }
 
 .user-card__img {
-  width: 6.875rem;
+  width: calc(6.64rem + 1vw);
   border-radius: 1rem;
 }
 
@@ -113,8 +113,8 @@ header {
   justify-content: center;
   align-items: center;
   background-color: var(--bg-card);
-  width: 4.875rem;
-  height: 3.25rem;
+  width: calc(4.64rem + 1vw);
+  height: calc(3.1rem + 0.5vw);
   border-radius: 0.75rem;
 }
 
@@ -133,7 +133,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 4vw;
 }
 
 img {
@@ -201,12 +201,12 @@ footer {
   }
 
   .user-card__img {
-    width: 11.75rem;
+    width: calc(10rem + 1vw);
   }
 
   .card_info__container {
-    width: 6.25rem;
-    height: 4.25rem;
+    width: calc(5.35rem + 1vw);
+    height: calc(3.8rem +0.5vw);
   }
 
   .card_info__text {
@@ -215,7 +215,7 @@ footer {
 
   main {
     padding: 2vh 16.80vw 8vh 16.80vw;
-    gap: 2rem;
+    gap: 2.25vw;
   }
 
   .footer__text {
